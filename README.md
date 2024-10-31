@@ -1,25 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js SSR Starter Template - ReadMe
+
+This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness Fleek’s optimized hosting for dynamic and performance-driven web applications
+
+## Prerequisites
+
+- Node 18.18.0+
+- Fleek Account
+- [Fleek CLI](https://www.npmjs.com/package/@fleek-platform/cli)
+- [Fleek Next Adapter](https://www.npmjs.com/package/@fleek-platform/next)
 
 ## Getting Started
 
-First, run the development server:
+1. Fork the repository
+2. Clone the repository by running the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <https://github.com/><your-id>/nextjs-ssr-template.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Enter the correct directory, install dependencies, and run locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd nextjs-ssr-template
+npm i
+npm run dev
+```
 
-## Deploy on Fleek
+1. Ensure that you install the Fleek CLI and the Fleek Next Adapter:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+// local installation
+npm i @fleek-platform/cli
+npm i @fleek-platform/next
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+// global installation
+npm i -g @fleek-platform/cli
+npm i -g @fleek-platform/next
+
+```
+
+💡: you can check the Fleek CLI version by running fleek -v. Any version >= 2.10.1 should be good. As for the Fleek Next adapter, you can check the Fleek Next Adapter version by running fleek-next -v. Any version >= 2.1.0 should be good.
+
+## Building and Deploying
+
+1. Build the project using the Fleek Next Adapter:
+
+```bash
+npx fleek-next build
+# or if installed globally
+fleek-next build
+```
+
+1. Now, Create the Fleek Function using the Fleek CLI:
+
+```bash
+//syntax
+fleek functions create --name '<name of your function>'
+
+//example
+fleek functions create --name nextra-function
+
+```
+
+1. Finally, deploy using the Fleek CLI:
+
+```bash
+//syntax
+fleek functions deploy --bundle=false --path .fleek/dist/index.js --assets .fleek/static --name '<name of your function>'
+
+//example
+fleek functions deploy --bundle=false --path .fleek/dist/index.js --assets .fleek/static --name nextra-function
+```
+
+As you complete all the steps successfully here, you will be able to access your fullstack Next.js app using a link that looks like this- https://broad-jackal-colossal.functions.stg.on-fleek-test.app/
+
+## Contributing
+
+### Reporting Issues
+
+- Use GitHub Issues to report bugs or suggest features.
+- Provide clear details and steps to reproduce any issues.
+
+### Pull Requests
+
+- Fork the repository.
+- Create a feature branch:
+
+```bash
+git checkout -b feature/your-feature
+```
+
+- Commit changes with clear messages.
+- Push to your fork and submit a pull request.
+
+## Learn More
+
+- [Fleek CLI Docs](https://fleek.xyz/docs/cli/)
+- [Fleek Function Docs](https://fleek.xyz/docs/cli/functions/)
+- [Fleek Next Docs](https://fleek.xyz/docs/cli/functions/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
+features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
