@@ -72,7 +72,7 @@ fleek functions deploy --bundle=false --path .fleek/dist/index.js --assets .flee
 fleek functions deploy --bundle=false --path .fleek/dist/index.js --assets .fleek/static --name nextra-function
 ```
 
-As you complete all the steps successfully here, you will be able to access your fullstack Next.js app using a link that looks like this- https://broad-jackal-colossal.functions.stg.on-fleek-test.app/
+As you complete all the steps successfully here, you will be able to access your fullstack Next.js app using a link that looks like this- https://brief-disease-harsh.functions.on-fleek.app/
 
 ## Contributing
 
