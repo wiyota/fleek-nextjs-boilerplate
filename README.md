@@ -1,4 +1,4 @@
-# Next.js SSR Starter Template - ReadMe
+# Next.js SSR Starter Template
 
 This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness Fleek’s optimized hosting for dynamic and performance-driven web applications
 
