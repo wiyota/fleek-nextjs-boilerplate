@@ -97,7 +97,7 @@ git checkout -b feature/your-feature
 
 - [Fleek CLI Docs](https://fleek.xyz/docs/cli/)
 - [Fleek Function Docs](https://fleek.xyz/docs/cli/functions/)
-- [Fleek Next Docs](https://fleek.xyz/docs/cli/functions/)
+- [Fleek Next Docs](https://fleek.xyz/docs/cli/fleek-next-adapter/)
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
 features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
