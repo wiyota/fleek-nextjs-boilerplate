@@ -6,7 +6,7 @@ This is the boilerplate code generated directly from running `npx create-next-ap
 
 - Node 18.18.0+
 - Fleek Account
-- [Fleek CLI](https://www.npmjs.com/package/@fleek-platform/cli)
+- [Fleek CLI](https://fleek.xyz/docs/cli/)
 - [Fleek Next Adapter](https://www.npmjs.com/package/@fleek-platform/next)
 
 ## Getting Started
@@ -98,6 +98,5 @@ git checkout -b feature/your-feature
 - [Fleek CLI Docs](https://fleek.xyz/docs/cli/)
 - [Fleek Function Docs](https://fleek.xyz/docs/cli/functions/)
 - [Fleek Next Docs](https://fleek.xyz/docs/cli/fleek-next-adapter/)
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-features and API.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
