@@ -1,6 +1,6 @@
 # Next.js SSR Starter Template
 
-This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness Fleek’s optimized hosting for dynamic and performance-driven web applications
+This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness [Fleek’s](https://fleek.xyz/) optimized hosting for dynamic and performance-driven web applications
 
 ## Prerequisites
 
@@ -95,6 +95,7 @@ git checkout -b feature/your-feature
 
 ## Learn More
 
+- [Other Next.js templates](https://app.fleek.xyz/templates/)
 - [Fleek CLI Docs](https://fleek.xyz/docs/cli/)
 - [Fleek Function Docs](https://fleek.xyz/docs/cli/functions/)
 - [Fleek Next Docs](https://fleek.xyz/docs/cli/fleek-next-adapter/)
