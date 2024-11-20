@@ -1,6 +1,6 @@
 # Next.js SSR Starter Template
 
-This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness Fleek’s optimized hosting for dynamic and performance-driven web applications
+This is the boilerplate code generated directly from running `npx create-next-app`. Utilize this template to harness [Fleek’s](https://fleek.xyz/) optimized hosting for dynamic and performance-driven web applications
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This is the boilerplate code generated directly from running `npx create-next-ap
 git clone <https://github.com/><your-id>/nextjs-ssr-template.git
 ```
 
-1. Enter the correct directory, install dependencies, and run locally:
+3. Enter the correct directory, install dependencies, and run locally:
 
 ```bash
 cd nextjs-ssr-template
@@ -26,7 +26,7 @@ npm i
 npm run dev
 ```
 
-1. Ensure that you install the Fleek CLI and the Fleek Next Adapter:
+4. Ensure that you install the Fleek CLI and the Fleek Next Adapter:
 
 ```bash
 // local installation
@@ -51,7 +51,7 @@ npx fleek-next build
 fleek-next build
 ```
 
-1. Now, Create the Fleek Function using the Fleek CLI:
+2. Now, Create the Fleek Function using the Fleek CLI:
 
 ```bash
 //syntax
@@ -62,7 +62,7 @@ fleek functions create --name nextra-function
 
 ```
 
-1. Finally, deploy using the Fleek CLI:
+3. Finally, deploy using the Fleek CLI:
 
 ```bash
 //syntax
@@ -95,6 +95,7 @@ git checkout -b feature/your-feature
 
 ## Learn More
 
+- [Other Next.js templates](https://app.fleek.xyz/templates/)
 - [Fleek CLI Docs](https://fleek.xyz/docs/cli/)
 - [Fleek Function Docs](https://fleek.xyz/docs/cli/functions/)
 - [Fleek Next Docs](https://fleek.xyz/docs/cli/fleek-next-adapter/)
